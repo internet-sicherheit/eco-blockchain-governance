@@ -16,14 +16,15 @@ First the questions are extracted from the guidelines and then examples of imple
  6. What are the security requirements for outsourcing to a third-party provider?
  7. How is compliance with this Directive ensured for the operator?
  
-
-1. Security policies and practices must be defined and provided in order to operate a steward. This includes all services related to the operation of the steward and the staff involved. An employee must be appointed to supervise the correct operation. This includes reviewing and updating the guidelines and, in addition to training employees, enforcing the guidelines.
-2. The safety guidelines must be reviewed at least once a year to ensure safe operation.
-3. Administrative staff pose a high security risk. Accordingly, they must be reviewed regularly. This process must be initiated for new recruits and repeated regularly. This also applies to administrative employees of subsidiaries who are involved in the operation. This includes, among other things, proof of identity, police clearance certificates and other security measures that the operator considers necessary, provided that these are compatible with the law.
-4. Employees who are involved in the services provided must regularly attend training courses on security and data protection. This should be done at least once a year and an agreement should be reached which guarantees ethical behaviour in particular and also deals responsibly with confidentiality, security, data protection and privacy. In addition, tailored training and guidelines must be provided for employees who have administrative access to subcomponents. 
-5. If the nodes are operated in their own premises, it must be ensured that the guidelines also guarantee physical security and access control and that the best possible industry standards are adhered to.
-6. If the nodes are hosted by a third-party provider, the operator must ensure that the security, privacy and data security policies of the third-party provider meet the requirements of this document. 
-7. The operator must provide an inspection body on request with evidence of compliance with the guidelines and all accreditations. In particular certificates, attestations or reports from accredited third parties. This includes standards such as ISO 27001, SSAE SOC 2 and others. 
+___
+ 
+ 1. Security policies and practices must be defined and provided in order to operate a steward. This includes all services    related to the operation of the steward and the staff involved. An employee must be appointed to supervise the correct operation. This includes reviewing and updating the guidelines and, in addition to training employees, enforcing the guidelines.
+ 2. The safety guidelines must be reviewed at least once a year to ensure safe operation.
+ 3. Administrative staff pose a high security risk. Accordingly, they must be reviewed regularly. This process must be initiated for new recruits and repeated regularly. This also applies to administrative employees of subsidiaries who are involved in the operation. This includes, among other things, proof of identity, police clearance certificates and other security measures that the operator considers necessary, provided that these are compatible with the law.
+ 4. Employees who are involved in the services provided must regularly attend training courses on security and data protection. This should be done at least once a year and an agreement should be reached which guarantees ethical behaviour in particular and also deals responsibly with confidentiality, security, data protection and privacy. In addition, tailored training and guidelines must be provided for employees who have administrative access to subcomponents. 
+ 5. If the nodes are operated in their own premises, it must be ensured that the guidelines also guarantee physical security and access control and that the best possible industry standards are adhered to.
+ 6. If the nodes are hosted by a third-party provider, the operator must ensure that the security, privacy and data security policies of the third-party provider meet the requirements of this document. 
+ 7. The operator must provide an inspection body on request with evidence of compliance with the guidelines and all accreditations. In particular certificates, attestations or reports from accredited third parties. This includes standards such as ISO 27001, SSAE SOC 2 and others. 
 
 ---
 
@@ -37,6 +38,7 @@ First the questions are extracted from the guidelines and then examples of imple
  6. Accessibility of the administrators?
  7. Time window for recovery after error or system failure?
 
+___
 
  1. The nodes must be available as validation nodes or observation nodes in the network.
  2. The node must run software specified by the Technical Board.
@@ -65,6 +67,7 @@ The guidelines apply to the production network. A test network should implement 
  11. Reliable synchronization of the system time?
  12. Securing the power supply?
 
+___
  
  1. The node must run on server hardware.
  2. If the node is running on a virtual machine, make sure to use a virtualization that is regularly updated by the vendor or a community and these updates must be performed regularly.  
@@ -94,6 +97,7 @@ The guidelines apply to the production network. A test network should implement 
  8. Authorization of the nodes in the network?
  9. Ensuring the ongoing integrity of the systems?
 
+___
 
  1. The steward keys must be managed on a different system than the system on which the nodes run. A possible implementation would be via a "CLI (Command Line Interface) System". Thus, nodes in the network can be authorized and stewards authenticated. For this possible CLI system no high end hardware is required. However, best IT security practices must be used for nodes that meet or exceed the following guidelines. 
  2. It must be ensured and certified that the node is operated in a secure data center. Including appropriate security levels and specifications at which they are targeted. For example, compliance with SSAE 16 Type II or other standards.
@@ -114,6 +118,7 @@ The guidelines apply to the production network. A test network should implement 
  2. Regulation of downtime?
  3. Network-wide planning of downtime?
 
+___
 
  1. The operator must provide 2 technical contact points responsible for managing the node with an SMS-capable device for alerting.
  2. The operator should aim for 99,9 % uptime for the nodes. (This corresponds to about 1.4 minutes of downtime per day or 9 hours per year).
@@ -129,6 +134,7 @@ The guidelines apply to the production network. A test network should implement 
  3. Design of the node selection algorithm?
  4. How is the node selection algorithm made transparent and public?
  
+ ___
 
  1. Active Validator nodes must be determined in the production network by the node selection algorithm defined by the Technical Board.
  2. Non-technical inputs or policy decisions implemented by the node selection algorithm MUST be approved by the Technical Board.
@@ -147,6 +153,7 @@ The guidelines apply to the production network. A test network should implement 
  3. Who can become a transaction endorser for the Permissioned Test Network?
  4. What happens if personal data is found in the Permissioned Test Network?
 
+___
 
  1. Via the Permissioned Test Network
 The steward must serve at least one node, but can serve more than one node. Any number of nodes can be hosted as hosting providers at the steward's discretion. It is not necessary to execute the node selection algorithm.
@@ -165,5 +172,6 @@ Within 48 hours of notification, the Control Panel must reset the Permissioned T
 
  1. How are changes to the operator to be communicated? 
  
+ ___
 
  1. An operator shall report any significant change in the configuration or location of a node to the competent governance body within 5 working days of the change.
