@@ -74,7 +74,7 @@ Falls es zu der Situation kommt, dass der Besitzer des Iron Throne seinen Status
 
 
 ## Anreize
-Die Netzwerk-Mitgliedschaft bring folgende Vorteile mit sich:
+Die Netzwerk-Mitgliedschaft bringt folgende Vorteile mit sich:
 
 * die mächtige Netzwerk Infrastruktur in Anspruch zu nehmen
 * ein enger und dezentralisierter Austausch mit anderen Organisationen
