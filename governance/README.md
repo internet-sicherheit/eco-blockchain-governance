@@ -1,4 +1,8 @@
-# References
+# Governance Work Group
+
+This work groups handles the aspect of organisational blockchain network governance.
+
+## References
 
 | Title | URL |  On / Off Chain | Remarks |
 |-------|-----|-----------------|---------|
