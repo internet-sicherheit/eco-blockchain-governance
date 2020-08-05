@@ -26,3 +26,9 @@ In order to keep an initial focus, the applicability of the eBGF on the blockcha
 +----------------------------------------------------------------------------+
 ```
 
+## Contribution Guidelines
+
+The eBGF is specified in the form of interconnected Markdown documents (use relative links).
+Please use [Semantic Line Breaks](https://sembr.org/) for writing the Markdown documents.
+
+If you want propose changes or new content to the framework, please either initaite a discussion in a GitHub issue or directly in a PR.
