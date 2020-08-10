@@ -7,7 +7,7 @@ Hence a concrete blockchain governance which defines answers to (all) the points
 
 ## Working Groups
 
-In the initial step, the eBGF is structured along 4 seperate working groups(technical, legal, ecnomy & incentives, [network governance](governance)) to handle these partial aspect of governance. 
+In the initial step, the eBGF is structured along 4 seperate working groups(technical, legal, economy & incentives, [network governance](governance)) to handle these partial aspect of governance. 
 Those should align their work with regards to the [Trust over IP](https://trustoverip.org/) Layer 1 (Utility Layer), but be open for other application contexts.
 In order to keep an initial focus, the applicability of the eBGF on the blockchain technologies Ethereum and Hyperledger Indy needs to be considered.
 
