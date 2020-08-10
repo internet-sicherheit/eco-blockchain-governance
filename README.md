@@ -28,7 +28,7 @@ In order to keep an initial focus, the applicability of the eBGF on the blockcha
 
 ### Technical
 
-Aspects such as technical monitoring, hardware and software requirements, update policies, backup, disaster recovery etc.
+Contains guidelines and implementation recommendation, as well as best practices for aspects such as technical monitoring, hardware and software requirements, update policies, backup, disaster recovery etc. .
 
 ### Legal
 

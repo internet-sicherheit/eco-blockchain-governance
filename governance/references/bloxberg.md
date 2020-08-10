@@ -2,15 +2,13 @@
 
 ## Overview
 
-The governance model is based on three pillars:
+The governance model is based on three pillars, one of it being:
 
-1. **Rights of co-determination**
+* **Rights of co-determination**
 
    * Administrative rights: to propose new proposals, implement or enforce decisions
 
    * Control rights: ratification of decisions, follow the decision-making process and its performance
- 
-2. **Responsibility**: The mechanisms whereby members commit and are held accountable for their actions and decisions.
 
 3. **incentives**: All reasons and mechanisms whereby members are encouraged to follow the guidelines
 
@@ -73,11 +71,3 @@ Penalties can be triggered by the following actions:
 The exclusion of a member is done off-chain and follows the decision algorithm. A quorum of 75% is required for the election or at least 7 organizations. If more than 75% of the votes for expulsion fall, the Iron Throne must remove the affected node from the network.
 
 If the situation arises that the owner of the Iron Throne does not want to relinquish his status after an Iron Throne vote, the network is forked. 
-
-
-## Incentives
-Network membership brings the following advantages:
-
-* to use the powerful network infrastructure
-* a close and decentralised exchange with other organisations
-* Members are involved in the decision-making process
