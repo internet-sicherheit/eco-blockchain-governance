@@ -42,6 +42,8 @@ while a missed proposal reduces the voting weight, i.e.
 voting weight = voting weight - 100 / (number of proposals per month)
 ~~~
 
+Note that all voting is done in a Smart Contract using public on-chain transactions.
+
 ### New members
 
 New members are nominated by Iron Throne every month (or every 4 weeks). The organization must fill out a form beforehand to apply for his candidacy.

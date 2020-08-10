@@ -1,6 +1,6 @@
 # Governance References
 
-This directory contains a collection of reviewed existing governance documents by other organizations.
+This directory contains a collection of reviewed and summarized existing governance documents by other organizations.
 
 ## References
 
