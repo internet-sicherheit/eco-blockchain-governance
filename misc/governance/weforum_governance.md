@@ -20,7 +20,7 @@ Operational Governance
 ## Participant on-boarding / off-boarding
 A blockchain network has to have objective criteria that determine which parties can participate.
 
-Exit plans can be set uo for leaving participants in order to guarantee a smooth transition. Transferring any assets and transactions needs to be analyzed case by case. This may also tie in with intellectual property (IP).
+Exit plans can be set up for leaving participants in order to guarantee a smooth transition. Transferring any assets and transactions needs to be analyzed case by case. This may also tie in with intellectual property (IP).
 
 ## Dispute resolutions and errors
 Disputes are more likely to occur on off-chain usage of data and compliance to data protection policies rather than for on-chain data usage.
@@ -42,7 +42,7 @@ A technical committee should oversee the upgrade and maintanence decisions.
 
 Enough lead time must be given to the participants to ensure internal testing of new versions before production. Emergency updates needs to be regulated.
 
-If the consortium is developing it own blockchain protocol or applications, members will need to consider:
+If the consortium is developing its own blockchain protocol or applications, members will need to consider:
  - how code is managed?
  - who has control over the official codebase?
  - who has the right to request changes?
@@ -60,12 +60,8 @@ Set data standard that all participants align with and which regulates the prese
 
 Options for storing data:
  - centralized storage (few endpoints but vulnerable)
- - storage by data owner with retrieval on demand (protects data autonomy but vunerable)
+ - storage by data owner with retrieval on demand (protects data autonomy but vulnerable)
  - decentralized storage (solves resiliency concerns but introduces addional endpoints)
-
-
-
-
 
 
 Source: http://widgets.weforum.org/blockchain-toolkit/consortium-governance/
