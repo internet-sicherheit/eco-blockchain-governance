@@ -34,7 +34,7 @@ An implementation should consider the following topics:
 * Usage and configuration of OS-level software firewall
 
 
-We can look at the [Steward Technical and Orgnaizatoinal Policies](https://sovrin.org/wp-content/uploads/Steward-Technical-and-Organizational-Policies-V2.pdf) as an example implementation:
+We can look at the [Sovrin Steward Technical and Orgnaizatoinal Policies](https://sovrin.org/wp-content/uploads/Steward-Technical-and-Organizational-Policies-V2.pdf) as an example implementation:
 
 > * If a Node is run on a VM, the Steward:
 >   * MUST run on a mainstream hypervisor that receives timely patches from its vendor or community.
@@ -54,13 +54,16 @@ While we mentioned this as a desired property in the motivation, this also bring
 
 ## Rationale and alternatives
 
-Provide software requirements is an expected practice for operating software systems.
+Providing software requirements is an expected practice for operating software systems.
 While it might be technically possible to operate a blockchain network without specifying software requirements,
 it might be challenging to offer it in a business context while guaranteeing certain SLAs.
 
 ## Prior art
 
 The [Sovrin Governance Framework](https://sovrin.org/library/sovrin-governance-framework/) defines software requirements to a certain degree as part of the [Steward Technical and Orgnaizatoinal Policies](https://sovrin.org/wp-content/uploads/Steward-Technical-and-Organizational-Policies-V2.pdf).
+
+[bloxberg]() provides some rough requirements as part of the [bloxbergValidatorSetup installation instructions](https://github.com/bloxberg-org/bloxbergValidatorSetup).
+However, this is mostly targeted at helping the operator getting the node up and running and is not concerning network stability.
 
 ## Unresolved questions
 
