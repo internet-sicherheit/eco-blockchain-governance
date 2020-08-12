@@ -16,9 +16,13 @@ One paragraph explanation of the guidline.
 Why are we doing this? What use cases does it support? What is the expected
 outcome?
 
+## Specification
+
+Provide guidance for implementers on an abstract and generic level.
+
 ## Examples & Best Practices
 
-Provide guidance for implementers.
+Provide guidance for implementers on a concrete level, prefaribly using real-world and realistic examples.
 Strive to guarantee that:
 
 - A possible implementation can be infered from given examples.
@@ -26,16 +30,11 @@ Strive to guarantee that:
 - Ideally provide an usable implementation as a 80/20 solution adhering to the pareto princicple.
 - Corner cases are dissected by example.
 
+While you don't have to adress all points, they might be helpful to paint a complete picture. 
+
 ## Drawbacks
 
 Why should we *not* do this?
-
-## Rationale and alternatives
-
-- Why is this guideline context the best in the space of guidelines?
-- What other guidelines have been considered and what is the rationale for not
-choosing them?
-- What is the impact of not doing this?
 
 ## Prior art
 
