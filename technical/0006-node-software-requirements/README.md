@@ -17,11 +17,14 @@ While a blockchain system can mostly be described as a heterogenous network,
 and a certain degree of heterogeneity can even be a desired property with regards to resilience,
 a certain baseline should be required in order to operate a stable, production-grade, network.
 
-By implementing this RFC it is demonstrated, that a conscious decision about the software involved with operating the node has been made.
+Though it might be technically possible to operate a blockchain network without specifying software requirements,
+it might be challenging to offer it in a business context while guaranteeing certain SLAs.
 
-## Examples & Best Practices
+By implementing this RFC it is demonstrated, that a conscious decision about the software involved with operating the node and with regards to non-functional operative quality attributes has been made.
 
-An implementation should consider the following topics:
+## Specification
+
+An implementation should consider the following topics (with the list not being exhaustive):
 
 * OS and OS version
 * Server OS hardening
@@ -33,6 +36,7 @@ An implementation should consider the following topics:
 * Limiting installed software packages on the node to those required to operate the node software
 * Usage and configuration of OS-level software firewall
 
+## Examples & Best Practices
 
 We can look at the [Sovrin Steward Technical and Orgnaizatoinal Policies](https://sovrin.org/wp-content/uploads/Steward-Technical-and-Organizational-Policies-V2.pdf) as an example implementation:
 
@@ -51,12 +55,6 @@ This could mean that the requirements don't fit their existing software policies
 
 In addition, the requirements ensure a certain degree of homogeneity.
 While we mentioned this as a desired property in the motivation, this also brings the danger, that certain attacks might become applicable to all nodes of the network.
-
-## Rationale and alternatives
-
-Providing software requirements is an expected practice for operating software systems.
-While it might be technically possible to operate a blockchain network without specifying software requirements,
-it might be challenging to offer it in a business context while guaranteeing certain SLAs.
 
 ## Prior art
 
