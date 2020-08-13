@@ -20,6 +20,9 @@ suspension and termination of members.
 
 An implementation should consider the following points. The list is by no means complete.
 
+The *suspension* of a member implies (temporarily) disabling a certain set of the member's rights,
+while by *termination* the permanent removal of the member from the network is meant.
+
 * not complying with the network governance terms
 
 * member organisations that violate any legal terms or are in dispute with the network organisation
@@ -34,9 +37,7 @@ An implementation should consider the following points. The list is by no means 
 
 * re-applying for network membership after suspension includes providing proof that certain measures have been taken that prevent future suspension
 
-* suspension is an intermediate step prior to termination
-
-* a member is terminated when the network governing body takes the decision by vote 
+* a member is terminated when the network governing body takes the decision 
 
 * a suspended member that does not re-apply for membership is selected for termination
 
