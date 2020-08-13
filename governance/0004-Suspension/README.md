@@ -9,7 +9,7 @@
 
 ## Summary
 
-Establishes the circumstances in which members of the network are suspended.  
+Establishes the circumstances in which members of the network are suspended and terminated due to rule violations.  
 
 ## Motivation
 
@@ -96,7 +96,7 @@ suspension MUST be notified of automatic termination.
 be reinstated MUST disclose the previous termination in their application and explain the
 remediation steps that the Steward has taken to requalify.
 
-Bloxberg implements suspension and termination as *sanction* and respectively *exclusion*:
+Bloxberg implements suspension and termination in its [Whitepaper] as *sanction* and respectively *exclusion*:
 
 > Sanctions (revoke membership) can be taken if a member misbehaves. The exclusion of a
 Authority node in the bloxberg network has to be approved by a voting of the bloxberg consortium
@@ -117,7 +117,7 @@ members.
 
 ## Drawbacks
 
-Keeping members in the network may help increase the network size and popularity. Exclusion of members may also be linked to censorship and centralization. Suspension may deter parties to rejoin the network. 
+Keeping members in the network may help increase the network size and popularity. Exclusion of members may also be linked to censorship and centralization. Furthermore, suspension may deter parties to rejoin the network. 
 
 ## Prior art
 
@@ -131,3 +131,4 @@ The [Sovrin Governance Framework](https://sovrin.org/library/sovrin-governance-f
 
 [Steward Business Policies]: https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf
 [Whitepaper]: https://bloxberg.org/wp-content/uploads/2020/02/bloxberg_whitepaper_1.1.pdf
+
