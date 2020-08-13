@@ -13,7 +13,8 @@ Establishes the circumstances in which members of the network are suspended and 
 
 ## Motivation
 
-In order to prevent abuse and encourage members to take responsibility in the network, the governance includes the possibility of penalties, suspension and termination of members.  
+In order to prevent abuse and encourage members to take responsibility in the network, the governance includes the possibility of penalties, 
+suspension and termination of members.  
 
 ## Specification
 
@@ -122,7 +123,8 @@ Exclusion of members may also be linked to censorship and centralization. Furthe
 
 ## Prior art
 
-The [Sovrin Governance Framework](https://sovrin.org/library/sovrin-governance-framework/) has well-defined governance policies for suspension and termination in its [Steward Business Policies].
+The [Sovrin Governance Framework](https://sovrin.org/library/sovrin-governance-framework/) has well-defined governance policies for suspension and termination 
+in its [Steward Business Policies].
 
 [Bloxberg](http://bloxberg.org) refers to suspension and termination as *sanction* and *exclusion* in its [Whitepaper], which applies for validator members.
 
