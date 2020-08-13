@@ -1,4 +1,4 @@
-# 0001: RFC Process
+# 0001: eBGF RFC Process
 - Authors: [Andrei Ionita](andrei.ionita@fit.fraunhofer.de), [Kevin Wittek](wittek@internet-sicherheit.de)
 - Status: [PROPOSED](/README.md#proposed)
 - Since: 2020-08-12
