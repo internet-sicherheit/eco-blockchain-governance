@@ -117,7 +117,8 @@ members.
 
 ## Drawbacks
 
-Keeping members in the network may help increase the network size and popularity. Exclusion of members may also be linked to censorship and centralization. Furthermore, suspension may deter parties to rejoin the network. 
+Keeping members in the network may help increase the network size and popularity. 
+Exclusion of members may also be linked to censorship and centralization. Furthermore, suspension may deter parties to rejoin the network. 
 
 ## Prior art
 
