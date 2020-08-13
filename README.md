@@ -47,7 +47,7 @@ Network Governance should describe governance processes for off- and on-boarding
 
 ## Contribution
 
-The eBGF is specified in the form of interconnected Markdown documents (use relative links). 
+The eBGF is specified in the form of interconnected Markdown documents (use relative links).
 Please use [Semantic Line Breaks](https://sembr.org/) for writing the Markdown documents.
 
 If you want propose changes or new content to the framework, please either initaite a discussion in a GitHub issue or directly in a PR.
