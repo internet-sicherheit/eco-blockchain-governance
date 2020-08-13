@@ -13,7 +13,7 @@ Establishes the circumstances in which members of the network are suspended and 
 
 ## Motivation
 
-In order to prevent abuse and encourage members to take responsability in the network, the governance includes the possibility of penalities, suspension and termination of members.  
+In order to prevent abuse and encourage members to take responsibility in the network, the governance includes the possibility of penalties, suspension and termination of members.  
 
 ## Specification
 
@@ -131,4 +131,3 @@ The [Sovrin Governance Framework](https://sovrin.org/library/sovrin-governance-f
 
 [Steward Business Policies]: https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf
 [Whitepaper]: https://bloxberg.org/wp-content/uploads/2020/02/bloxberg_whitepaper_1.1.pdf
-
