@@ -37,7 +37,7 @@ An implementation should consider the following points. The list is by no means 
 
 * a member is terminated when the network governing body takes the decision by vote 
 
-* a suspected member that does not re-apply for membership is selected for termination
+* a suspended member that does not re-apply for membership is selected for termination
 
 * re-applying for network membership after termination includes providing proof that certain measures have been taken that prevent future suspension and termination
 
