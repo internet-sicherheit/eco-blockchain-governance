@@ -1,5 +1,5 @@
 # 0005: Node Hardware Requirements
-- Authors: [David Maas](david_maas@hotmail.de) 
+- Authors: [David Maas](david_maas@hotmail.de), [Kevin Wittek](wittek@internet-sicherheit.de), [Chinmay Khandekar](khandekar@internet-sicherheit.de) 
 - Status: PROPOSED
 - Since: 2020-08-12 
 - Status Note: Initial Proposal  
@@ -13,8 +13,7 @@ Describes the hardware requirements for the node.
 ## Motivation
 
 For the node to run optimally, certain requirements should be placed on the hardware. 
-This is the only way to ensure that there is as little downtime as possible 
-and that there are sufficient resources available in the network.
+This is the only way to ensure that there is as little downtime as possible and that there are sufficient resources available in the network.
 
 ## Specification
 
@@ -41,6 +40,7 @@ We can look at the [Sovrin Steward Technical and Orgnaizatoinal Policies](https:
 > * SHOULD have a power supply consistent with high availability systems. 
 
 There is also a possible implementation by EBSI [Minimum Requirements for Hosting an EBSI v1.0 Node](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITALEBSI/Minimum+Requirements+for+Hosting+an+EBSI+v1.0+Node) 
+
 European Blockchain Services Infrastructure (EBSI)
 
 > Requirements
@@ -72,9 +72,13 @@ It is important to note that the requirements specified in the example implement
 ## Drawbacks
 
 High costs for hardware and operation could exclude potential members. 
+
 It would be much cheaper to operate nodes privately without guidelines. 
+
 However, this would also result in the loss of collateral. 
+
 Presumably the consequence would be more failures. 
+
 In addition, the overall trust would also be lost. 
 
 ## Prior art
