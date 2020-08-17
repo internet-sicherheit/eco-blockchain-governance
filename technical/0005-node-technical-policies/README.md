@@ -72,13 +72,9 @@ It is important to note that the requirements specified in the example implement
 ## Drawbacks
 
 High costs for hardware and operation could exclude potential members. 
-
 It would be much cheaper to operate nodes privately without guidelines. 
-
 However, this would also result in the loss of collateral. 
-
 Presumably the consequence would be more failures. 
-
 In addition, the overall trust would also be lost. 
 
 ## Prior art
