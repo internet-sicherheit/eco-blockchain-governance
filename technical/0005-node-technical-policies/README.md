@@ -16,52 +16,73 @@ For the node to run optimally, certain requirements should be placed on the hard
 This is the only way to ensure that there is as little downtime as possible 
 and that there are sufficient resources available in the network.
 
+## Specification
+
+A realization of the hardware should consider the following points (the list is not exhaustive):
+
+- The node must run on server hardware.
+- Must have adequate computing power.
+- Must have sufficient memory.
+- Must have sufficient storage with the option to expand it.  
+- Must have a high-speed connection to the Internet.
+- Each NIC must have a IP address.
+- A power supply unit is required.
 
 ## Examples & Best Practices
 
-##### The following demands are made on the hardware that must be observed during implementation:
-- The node must run on server hardware.
-- Must have adequate computing power. (16 cores or more)
-- Must have sufficient memory. ( 64 GB or more )
-- Must have at least 2 TB of storage with the option to grow to 4 TB. 
-  For example via Raid implementations. 
-  The start partition must also be sufficiently large.
-- Must have a high-speed connection to the Internet with highly available, 
-  fail-safe lines. 1 Gbps
-- Must provide at least one dedicated NIC for consensus traffic 
-  and have another NIC to handle external requests. 
-  Each NIC must have a stable, static, globally routable IP address.
-- A system clock is required that has been proven to be synchronized with known NTP servers.
-A power supply unit is required that meets the requirements of a high-availability system.
+We can look at the [Sovrin Steward Technical and Orgnaizatoinal Policies](https://sovrin.org/wp-content/uploads/Steward-Technical-and-Organizational-Policies-V2.pdf) as an example implementation:
 
-##### A possible implementation is provided by EBSI. 
+> * MUST run on robust server-class hardware.
+> * MUST have adequate compute power (in late 2019, 8 or more cores is considered adequate).
+> * MUST have adequate RAM (in late 2019, 32 GB of RAM is considered adequate).
+> * MUST have at least 1 TB, with the ability to grow to 2 TB, of reliable (e.g., RAIDed) disk space, with an adequately sized boot partition.
+> * MUST have a high-speed connection to the internet with highly available, redundant pipes (as of late 2019, 100 Mbps was considered adequate).
+> * MUST have at least one dedicated NIC for Sovrin Validator Node consensus traffic, and a different NIC to process external requests. Each NIC must have astable, static, world-routable IP address.
+> * SHOULD have a power supply consistent with high availability systems. 
+
+There is also a possible implementation by EBSI [Minimum Requirements for Hosting an EBSI v1.0 Node](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITALEBSI/Minimum+Requirements+for+Hosting+an+EBSI+v1.0+Node) 
 European Blockchain Services Infrastructure (EBSI)
 
-![A possible implementation of the nodes](EBSI_v1.0_node.jpg)
+> Requirements
 
-Further information is available on the EU website:  
-https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITALEBSI/Minimum+Requirements+for+Hosting+an+EBSI+v1.0+Node
+> Environment Requirements
+
+> An EBSI v1.0 node requires a minimum of three computer hosts all with access to the Internet and with individual fixed public IP addresses. These can be either physical server computers or virtual machines running in a self-hosted data-centre infrastructure, a private cloud, or a public cloud.
+
+> Hardware
+
+> Each computer host – physical or virtual – must have these minimum specifications:
+> * 4 Core CPU, 4 vCPU or equivalent,
+> * 16 GB of RAM for the BESU and Fabric hosts; 32 GB of RAM for Master/Applications host
+> * 80 GB SSD,
+> * 256 GB SSD.
+
+> Network
+
+> All hosts must be in the same subnet, each with a fixed public IP address, and must be connected to the Internet in order to get updated and to communicate with other EBSI nodes. 
+
+> The minimum specifications are:
+> * 1 GB Ethernet (local network),
+> * latency 50ms (internet),
+> * 100 Mbits/second for bandwidth (internet)
+> * 3 fixed public IPs (one for each host).
 
 It is important to note that the requirements specified in the example implementation need to be adapted according to the network's context. 
 
-
 ## Drawbacks
 
-It is very expensive to build such a hardware infrastructure. 
-This would allow potentially interested companies to refrain from.
-
-## Rationale and alternatives
-
-It would be much cheaper to operate nodes privately without guidelines. However, this would also result in the loss of collateral. Presumably the consequence would be more failures. In addition, the overall trust would also be lost. 
+High costs for hardware and operation could exclude potential members. 
+It would be much cheaper to operate nodes privately without guidelines. 
+However, this would also result in the loss of collateral. 
+Presumably the consequence would be more failures. 
+In addition, the overall trust would also be lost. 
 
 ## Prior art
 
 The EU and Sovrin provide frameworks and technical documentation that define hardware requirements. 
-[Technical Documentation](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITALEBSI/Technical+Documentation)
-[Steward Technical and Orgnaizatoinal Policies](https://sovrin.org/wp-content/uploads/Steward-Technical-and-Organizational-Policies-V2.pdf)
+[EBSI Technical Documentation](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITALEBSI/Technical+Documentation) and [Steward Technical and Orgnaizatoinal Policies](https://sovrin.org/wp-content/uploads/Steward-Technical-and-Organizational-Policies-V2.pdf)
 
 ## Unresolved questions
 
-- A constant adaptation of the requirements would still have to be regulated in order 
-
-  to ensure operation in the future. This should be clarified in another RFC.
+- A constant adaptation of the requirements would still have to be regulated in order to ensure operation in the future. 
+This should be clarified in another RFC.
