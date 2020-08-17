@@ -14,7 +14,8 @@ Describes the hardware requirements for the node.
 
 For the node to run optimally, certain requirements should be placed on the hardware. 
 This is the only way to ensure that there is as little downtime as possible 
-and that there is always sufficient power available for operation.
+and that there are sufficient resources available in the network.
+
 
 ## Examples & Best Practices
 
@@ -31,7 +32,7 @@ and that there is always sufficient power available for operation.
   and have another NIC to handle external requests. 
   Each NIC must have a stable, static, globally routable IP address.
 - A system clock is required that has been proven to be synchronized with known NTP servers.
-- A power supply is required that meets the requirements of a high-availability system.
+A power supply unit is required that meets the requirements of a high-availability system.
 
 ##### A possible implementation is provided by EBSI. 
 European Blockchain Services Infrastructure (EBSI)
@@ -41,7 +42,8 @@ European Blockchain Services Infrastructure (EBSI)
 Further information is available on the EU website:  
 https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITALEBSI/Minimum+Requirements+for+Hosting+an+EBSI+v1.0+Node
 
-It is important to note that the requirements must be adapted to the example implementation. 
+It is important to note that the requirements specified in the example implementation need to be adapted according to the network's context. 
+
 
 ## Drawbacks
 
@@ -60,5 +62,6 @@ The EU and Sovrin provide frameworks and technical documentation that define har
 
 ## Unresolved questions
 
-- Basically, an adaptation of the requirement would still have to be regulated in order 
+- A constant adaptation of the requirements would still have to be regulated in order 
+
   to ensure operation in the future. This should be clarified in another RFC.
