@@ -12,7 +12,6 @@
 The objective of this RFC is to provide the governance overview of onboarding a member. 
 This RFC defines onboarding process for new member as well as the requirementies for entities who wish to join.
 The RFC details out the process of member onboarding starting from Qualification of a Member, Application stages post which Activation of node and their operation policies during the onboarding phases.
-If you have further comments, suggestions we encourag you to contribute them. If you are interested in joining our consortium please visit the following webpage: www.egf.de (Spaceholder).
 
 
 ## Motivation
