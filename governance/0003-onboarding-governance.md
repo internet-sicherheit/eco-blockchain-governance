@@ -11,63 +11,56 @@
 
 The objective of this RFC is to provide the governance overview of onboarding a member. 
 This RFC defines onboarding process for new member as well as the requirementies for entities who wish to join.
-The RFC details out the process of member onboarding starting from Qualification of a Member, Application stages post which Activation of node and their operation policies during the onboarding phases.
-
+he RFC details out the process of member onboarding starting from Qualification of a Member and Application stages through to the Activation and operation policies.
 
 ## Motivation
 
+This document defines objective requirements that determine which parties can join the blockchain network.
 A clearly defined process will increase security, as well as transparency within the community.
 
-## Examples & Best Practices
+## Spezifications
 
+* Which organization forms can join the consortium?
+* Which Jurisdiction does the member have to be compliant with?
+* What are the requirements for organizations/companies to join?
+* What may be further requirements?
+* How can the application process be modelled?
+* When can be applied for the process and which are the intervals the applications are reviewed?
+* What are citeria for evaluations of the applications
+* What are requirements for am applicant to run a operating node after the application has been approved?
+
+## Examples & Best Practices
 Sovrin:
 https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf
 
 This framework has been used to retrieve possible questions of this document.
 
-## Spezifications
-
-### Requirements for joining members
-
-#### Who can become a member?
+### Who can become a member?
 * an organisation registered to conduct business in at least one jurisdiction
 * a governmental organization in a recognized jurisdiction
 
-#### Which Jurisdiction does the member have to be compliant with?
+### Which Jurisdiction does the member have to be compliant with?
 *The member must comply with the laws and regulations of the jurisdiction it is legally licensed to operate or registered to conduct business
 
-#### Are there any further requirements?
-* The new member has to prove it is not undergoing any criminal proceeding and that is financially solvent.
-* The Organization which applies to be a member has been operational without debt for the past 3 years.
-
-
-#### Which organization froms can join the consortium?
-
-1) governmental body or agency
-2) One of the following types with at least 5 years of opening history: financial institution, health care provider, insurance company
-3) Law firm, Accounting firm, and other legally regualted intitutions with 5 years opening history
-4) a credited university or other institution of higher educatio with 5 years opening history
-5) a certificate authority (CA) with 5 years opening history
-
-
-
-### Application (WIP)
-
+### Application
 * To apply for eBGF a written application should be submit to eBGF along with identity documentation of the member representation and organization applied for.
 * The applying member must demonstrate finacial and technical capabilities
 * There must be single point of contact for the application
-*
 
+### What may be further requirements?
+* The new member has to prove it is not undergoing any criminal proceeding and that is financially solvent.
+* The Organization which applies to be a member has been operational without debt for the past 3 years.
 
 ## Drawbacks 
 
-* Rather slow, but ensure verfication, transparency and consensus among existing members
-*
+* Rather slow due to verification of requirements and application process
+* Long process may demotivate companies and organizations
 
 ## Rationale and alternatives
 
-- The RFC serves as a basis of Onboarding, not having this RFC in place would leave many open questions in regards to how the member would be onboarded.
-- The Sovrin Steward Business Policies V2 are one the best practices we referred during implementation of this RFC. 
+- The RFC serves as a basis for objectice criteria for members and a generic application process. Not having defined certain citeria and application process may lead to security flaws and fraud.
+- The process could be automated
+- The Sovrin Steward Business Policies V2 are one the best practices.
 
 ## Prior art
 
@@ -76,4 +69,5 @@ The [Sovrin Business Policy V2 Framework](https://sovrin.org/wp-content/uploads/
 ## Unresolved questions
 
 * Is the laid down RFC guidelines close to reality?
-*
+* Voting process for acceptance of application of the new member
+
