@@ -10,7 +10,7 @@
 ## Summary
 
 The objective of this RFC is to provide the governance overview of onboarding a member. 
-This RFC defines onboarding process for new member as well as the requirementies for entities who wish to join.
+This RFC defines the onboarding process for a new member as well as the requirements for entities who wish to join.
 he RFC details out the process of member onboarding starting from Qualification of a Member and Application stages through to the Activation and operation policies.
 
 ## Motivation
@@ -70,4 +70,3 @@ The [Sovrin Business Policy V2 Framework](https://sovrin.org/wp-content/uploads/
 
 * Is the laid down RFC guidelines close to reality?
 * Voting process for acceptance of application of the new member
-
