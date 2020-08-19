@@ -11,12 +11,12 @@
 
 The objective of this RFC is to provide the governance overview of onboarding a member. 
 This RFC defines the onboarding process for a new member as well as the requirements for entities who wish to join.
-The RFC details out the process of member onboarding starting from the qualification of a member and application stages through to the activation and operation policies.
+The RFC details out the process of member onboarding starting from Qualification of a Member and Application stages through to the Activation and operation policies.
 
 ## Motivation
 
 This document defines objective requirements that determine which parties can join the blockchain network.
-A clearly defined process will increase security, as well as transparency within the community.
+A clearly defined process will increase security, as well as transparency within the community which parties can participate in the blockchain network.
 
 ## Specifications
 
@@ -33,7 +33,7 @@ A clearly defined process will increase security, as well as transparency within
 Sovrin:
 https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf
 
-This framework has been used to retrieve possible questions of this document.
+The Sovrin Steward Policy has been used to retrieve possible questions within this document.
 
 ### Who can become a member?
 * an organisation registered to conduct business in at least one jurisdiction
@@ -42,9 +42,9 @@ This framework has been used to retrieve possible questions of this document.
 ### Which Jurisdiction does the member have to be compliant with?
 *The member must comply with the laws and regulations of the jurisdiction it is legally licensed to operate or registered to conduct business
 
-### Application
-* To apply for eBGF a written application should be submit to eBGF along with identity documentation of the member representation and organization applied for.
-* The applying member must demonstrate finacial and technical capabilities
+### Application (WIP)
+* To apply as a member a written application should be attached along with identity documentation of the member representation and organization applied for.
+* The applying member must demonstrate sufficient technical capabilities to perform the consotium objectives
 * There must be single point of contact for the application
 
 ### What may be further requirements?
@@ -53,20 +53,12 @@ This framework has been used to retrieve possible questions of this document.
 
 ## Drawbacks 
 
-* Rather slow due to verification of requirements and application process
 * Long process may demotivate companies and organizations
-
-## Rationale and alternatives
-
-- The RFC serves as a basis for objective criteria for members and a generic application process. Not having defined certain criteria and application process may lead to security flaws and fraud.
-- The process could be automated
-- The Sovrin Steward Business Policies V2 are one the best practices.
 
 ## Prior art
 
-The [Sovrin Business Policy V2 Framework](https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf) defines Steward onboarding requirements.
+- The [Sovrin Business Policy V2 Framework](https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf) are one the best practices.
 
 ## Unresolved questions
 
-* Is the laid down RFC guidelines close to reality?
-* Voting process for acceptance of application of the new member
+* New member acceptance process either via Voting or on referral basis?
