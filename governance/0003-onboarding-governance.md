@@ -18,7 +18,7 @@ The RFC details out the process of member onboarding starting from the qualifica
 This document defines objective requirements that determine which parties can join the blockchain network.
 A clearly defined process will increase security, as well as transparency within the community.
 
-## Spezifications
+## Specifications
 
 * Which organization forms can join the consortium?
 * Which Jurisdiction does the member have to be compliant with?
