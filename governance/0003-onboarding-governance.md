@@ -11,7 +11,7 @@
 
 The objective of this RFC is to provide the governance overview of onboarding a member. 
 This RFC defines the onboarding process for a new member as well as the requirements for entities who wish to join.
-he RFC details out the process of member onboarding starting from Qualification of a Member and Application stages through to the Activation and operation policies.
+The RFC details out the process of member onboarding starting from the qualification of a member and application stages through to the activation and operation policies.
 
 ## Motivation
 
