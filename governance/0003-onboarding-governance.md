@@ -58,7 +58,7 @@ This framework has been used to retrieve possible questions of this document.
 
 ## Rationale and alternatives
 
-- The RFC serves as a basis for objectice criteria for members and a generic application process. Not having defined certain citeria and application process may lead to security flaws and fraud.
+- The RFC serves as a basis for objective criteria for members and a generic application process. Not having defined certain criteria and application process may lead to security flaws and fraud.
 - The process could be automated
 - The Sovrin Steward Business Policies V2 are one the best practices.
 
