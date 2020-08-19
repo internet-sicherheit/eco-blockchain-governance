@@ -21,7 +21,7 @@ A clearly defined process will increase security, as well as transparency within
 ## Specifications
 
 * Which organization forms can join the consortium?
-* Which Jurisdiction does the member have to be compliant with?
+* Which jurisdiction does the member have to be compliant with?
 * What are the requirements for organizations/companies to join?
 * What may be further requirements?
 * How can the application process be modelled?
