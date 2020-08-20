@@ -25,27 +25,26 @@ A clearly defined process will increase security, as well as transparency within
 * What are the requirements for organizations/companies to join?
 * What may be further requirements?
 * How can the application process be modelled?
-* When can be applied for the process and which are the intervals the applications are reviewed?
-* What are citeria for evaluations of the applications
+* How frequently are the membership applications reviewed by the consortium?
+* What are citeria for evaluations of the applications?
 * What are requirements for am applicant to run a operating node after the application has been approved?
 
 ## Examples & Best Practices
-Sovrin:
-https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf
 
-The Sovrin Steward Policy has been used to retrieve possible questions within this document.
+The Sovrin Steward Policy and Bloxberg Whitepaper has been used to retrieve possible questions within this document. 
 
 ### Who can become a member?
-* an organisation registered to conduct business in at least one jurisdiction
-* a governmental organization in a recognized jurisdiction
+* an organisation registered to conduct business in at least one jurisdiction.
+* a governmental organization in a recognized jurisdiction.
 
 ### Which Jurisdiction does the member have to be compliant with?
-*The member must comply with the laws and regulations of the jurisdiction it is legally licensed to operate or registered to conduct business
+*The member must comply with the laws and regulations of the jurisdiction it is legally licensed to operate or registered to conduct business.
 
-### Application (WIP)
+### Application
 * To apply as a member a written application should be attached along with identity documentation of the member representation and organization applied for.
-* The applying member must demonstrate sufficient technical capabilities to perform the consotium objectives
-* There must be single point of contact for the application
+* The applying member must demonstrate sufficient technical capabilities to perform the consotium objectives.
+* There must be single point of contact for the application.
+* Applications are reviewed atleast once a calender month.
 
 ### What may be further requirements?
 * The new member has to prove it is not undergoing any criminal proceeding and that is financially solvent.
@@ -57,8 +56,9 @@ The Sovrin Steward Policy has been used to retrieve possible questions within th
 
 ## Prior art
 
-- The [Sovrin Business Policy V2 Framework](https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf) are one the best practices.
+- The [Sovrin Business Policy V2 Policy](https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf) and [Bloxberg Whitepaper](https://bloxberg.org/wp-content/uploads/2020/02/bloxberg_whitepaper_1.1.pdf) are one the best practices.
 
 ## Unresolved questions
 
 * New member acceptance process either via Voting or on referral basis?
+* When is a application considered complete for review?
