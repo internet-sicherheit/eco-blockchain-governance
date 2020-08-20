@@ -15,7 +15,7 @@ The RFC details out the process of member onboarding starting from Qualification
 
 ## Motivation
 
-This document defines objective requirements that determine which parties can join the blockchain network.
+This RFC provides the guidelines to develop objective criteria for eligibility of members
 A clearly defined process will increase security, as well as transparency within the community which parties can participate in the blockchain network.
 
 ## Specifications
