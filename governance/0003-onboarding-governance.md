@@ -59,7 +59,8 @@ The Organization which applies to be a member has been operational without debt 
 
 ## Drawbacks 
 
-* If the citeria is defined to narrow for a smaller pool of possible members, interested and interesting members may be excluded. Therefore the aimed size of the network and the potenital members and users should be taken into consideration.
+* If the criteria are defined too narrow for a small pool of possible members, interested and interesting members may be excluded. 
+Therefore the aimed size of the network and the potential members and users should be taken into consideration.
 
 ## Prior art
 
