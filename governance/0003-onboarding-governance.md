@@ -69,5 +69,4 @@ The Organization which applies to be a member has been operational without debt 
 
 * When is a application considered complete for review?
 * Who is in the Board of Trustees and how is it chosen/elected?
-* How can the citeria be changed.
-
+* Change process for these criteria
