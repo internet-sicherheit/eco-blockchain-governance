@@ -13,8 +13,8 @@ The RFC provides the guidelines to develop objective criteria for eligibility of
 
 ## Motivation
 
-* The RFC is a part of the the process of member onboarding starting which are Qualification of a Member, the  Application process through to the Activation and operation policies.
-* The objective of this RFC is to provide qualification criteria for members.
+Clearly defined criteria for eligibility of members will increase security, as well as transparency within the community and parties that can participate in the blockchain network.
+Moreover, they can increase trust within the network, especially in the beginning, when a decentralized network is more prone to security risks since a malicious member can have a potentially higher impact.
 
 ## Specifications
 
