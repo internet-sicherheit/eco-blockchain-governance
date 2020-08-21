@@ -18,43 +18,47 @@ Moreover, they can increase trust within the network, especially in the beginnin
 
 ## Specifications
 
-* Which organization forms can join the consortium?
-* Which jurisdiction does the member have to be compliant with?
-* What are the requirements for organizations/companies to join?
-* What may be further requirements?
-* Can someone join who doesn't meet the requirements?
+* Organization forms which can join the consortium.
+* The jurisdiction, the member has to be compliant with.
+* Requirements for organizations/companies to join.
+* Further requirements.
+* Joining without meeting the requirements.
 
 ## Examples & Best Practices
 
 Sovrin regulates membership requirements in its [Sovrin Business Policy V2 Policy](https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf) as follows:
 
 > ### Who can become a member?
-> * an organisation registered to conduct business in at least one jurisdiction.
-> * a governmental organization in a recognized jurisdiction.
-
+> *   A Steward MUST be either:
+>   * A governmental Organization in a recognized Jurisdiction, or
+>   * An Organization registered to conduct business in at least one Jurisdiction.
+>
 > ### Which Jurisdiction does the member have to be compliant with?
-> *The member must comply with the laws and regulations of the jurisdiction it is legally licensed to operate or registered to conduct business.
+> * A Steward MUST comply with the laws and regulations of the Jurisdiction(s) of which the Steward is part or in which the Steward is legally licensed to operate or registered to conduct business.
 
 > ### What are the requirements for organizations/companies to join?
-> * A governmental body or agency, or an entity predominantly owned and controlled by the state, in a Jurisdiction as defined in the according Glossary.
-> * One of the following types of governmentally regulated institutions with at least five (5) years operating history:Financial Institution, Healthcare provider, insurance company
-> * A law firm, accounting firm, or other legally-regulated institution with at least five(5) years operating history
-> * A non-governmental organization (NGO) or Social Purpose Organization with at least five (5) years operating history
-> * An accredited university or other institution of higher education with at least five (5) years operating history.
-> * A certificate authority (CA) with at least five (5) years operating history.
-The Organization which applies to be a member has been operational without debt for the past 3 years.
-    
+> * A Steward MUST belong to one of the following categories:
+>   * A governmental body or agency, or an entity predominantly owned and controlledby the state, in a Jurisdiction as defined in the Sovrin Glossary.
+>   * One of the following types of governmentally regulated institutions with at least five (5) years operating history:
+>      * Financial institution
+>      * Healthcare provider
+>      * Insurance company
+>   * A law firm, accounting firm, or other legally-regulated institution with at least five(5) years operating history.
+>   * A non-governmental organization (NGO) or Social Purpose Organization with atleast five (5) years operating history.
+>   * An accredited university or other institution of higher education with at least five(5) years operating history.
+>   * A certificate authority (CA) with at least five (5) years operating history.
+
 > ### Can someone join who doesn't meet the requirements?
-> * An Organization that does not qualify under one of the above categories but meets all of the following conditions:
-> 1) Submits an application with written evidence satisfactory that it meets all the other requirements in this section and is fully capable of complying with all the requirements of the Governance Framework.
-> 2) includes in its application a written statement explaining why it supports the mission of the consortium and why it should be selected by the Board of Trustees as a Member
-> 3) Agrees, contingent on its approval as a member to publish and maintain that written statement as a public document linkable on the Web.
-> 4) Receives approval to be a Steward from the Sovrin Board of Trustee
+>   * An Organization that does not qualify under one of the above categories butmeets all of the following conditions:
+>       * Submits an application with written evidence satisfactory to the Sovrin Foundation that it meets all the other requirements in this section and is fully capable of complying with all the requirements of Sovrin GovernanceFramework.
+>       * Includes in its application a written statement explaining why it supportsthe mission of the Sovrin Foundation and why it should be selected by the Sovrin Board of Trustees as a Steward.
+>       * Agrees, contingent on its approval as a Steward, to publish and maintainthat written statement as a public document linkable on the Web.
+>       * Receives approval to be a Steward from the Sovrin Board of Trustees.
 
 > ### What may be further requirements?
-> *The applicant has to provide evidence to the consortium in the application or requalification that the applicant is:
-> * Financially solvent.
-> * Not undergoing any criminal proceedings
+> * A Steward MUST attest and provide supporting evidence to the Sovrin Foundation in the application or requalification process that the Steward is:
+>   * Financially solvent.
+>   * Not undergoing any criminal proceedings.
 
 
 ## Drawbacks 
@@ -64,10 +68,9 @@ Therefore the aimed size of the network and the potential members and users shou
 
 ## Prior art
 
-* The [Sovrin Business Policy V2 Policy](https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf) and [Bloxberg Whitepaper](https://bloxberg.org/wp-content/uploads/2020/02/bloxberg_whitepaper_1.1.pdf)  has been used to retrieve possible answers within this document. 
+* The [Sovrin Business Policy V2 Policy](https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf) has been used to retrieve possible answers within this document. 
 
 ## Unresolved questions
 
 * When is a application considered complete for review?
-* Who is in the Board of Trustees and how is it chosen/elected?
 * Change process for these criteria
