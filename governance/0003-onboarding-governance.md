@@ -1,4 +1,4 @@
-# RFC 0003:Member eligibility criteria
+# 0003: Member Eligibility Criteria
 - Authors: Tina Marquardt (marquadt@internet-sicherheit.de) and Chinmay Khandekar (khandekar@internet-sicherheit.de) 
 - Status: [PROPOSED](/README.md#proposed)
 - Since: 2020-08-12 
