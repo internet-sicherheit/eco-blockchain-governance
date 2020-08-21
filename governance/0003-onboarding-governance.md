@@ -1,4 +1,4 @@
-# eBGF RFC 0003:Member eligibility criteria
+# RFC 0003:Member eligibility criteria
 - Authors: Tina Marquardt (marquadt@internet-sicherheit.de) and Chinmay Khandekar (khandekar@internet-sicherheit.de) 
 - Status: [PROPOSED](/README.md#proposed)
 - Since: 2020-08-12 
@@ -9,14 +9,12 @@
 
 ## Summary
 
-The RFC is a part of the the process of member onboarding starting which are Qualification of a Member, the  Application process through to the Activation and operation policies.
-The objective of this RFC is to provide qualification criteria for members.
-
+The RFC provides the guidelines to develop objective criteria for eligibility of members to join a consortial blockchain network.
 
 ## Motivation
 
-* The RFC provides the guidelines to develop objective criteria for eligibility of members.
-* A clearly defined process will increase security, as well as transparency within the community which parties can participate in the blockchain network.
+* The RFC is a part of the the process of member onboarding starting which are Qualification of a Member, the  Application process through to the Activation and operation policies.
+* The objective of this RFC is to provide qualification criteria for members.
 
 ## Specifications
 
@@ -24,9 +22,7 @@ The objective of this RFC is to provide qualification criteria for members.
 * Which jurisdiction does the member have to be compliant with?
 * What are the requirements for organizations/companies to join?
 * What may be further requirements?
-* How frequently are the membership applications reviewed by the consortium?
-* What are citeria for evaluations of the applications?
-* What are requirements for am applicant to run a operating node after the application has been approved?
+* Can someone join who doesn't meet the requirements?
 
 ## Examples & Best Practices
 
@@ -39,29 +35,39 @@ Sovrin regulates membership requirements in its [Sovrin Business Policy V2 Polic
 > ### Which Jurisdiction does the member have to be compliant with?
 > *The member must comply with the laws and regulations of the jurisdiction it is legally licensed to operate or registered to conduct business.
 
-> ### Application
-> * To apply as a member a written application should be attached along with identity documentation of the member representation and organization applied for.
-> * The applying member must demonstrate sufficient technical capabilities to perform the consotium objectives.
-> * There must be single point of contact for the application.
+> ### What are the requirements for organizations/companies to join?
+> * A governmental body or agency, or an entity predominantly owned and controlled by the state, in a Jurisdiction as defined in the according Glossary.
+> * One of the following types of governmentally regulated institutions with at least five (5) years operating history:Financial Institution, Healthcare provider, insurance company
+> * A law firm, accounting firm, or other legally-regulated institution with at least five(5) years operating history
+> * A non-governmental organization (NGO) or Social Purpose Organization with at least five (5) years operating history
+> * An accredited university or other institution of higher education with at least five (5) years operating history.
+> * A certificate authority (CA) with at least five (5) years operating history.
+The Organization which applies to be a member has been operational without debt for the past 3 years.
+    
+> ### Can someone join who doesn't meet the requirements?
+> * An Organization that does not qualify under one of the above categories but meets all of the following conditions:
+> 1) Submits an application with written evidence satisfactory that it meets all the other requirements in this section and is fully capable of complying with all the requirements of the Governance Framework.
+> 2) includes in its application a written statement explaining why it supports the mission of the consortium and why it should be selected by the Board of Trustees as a Member
+> 3) Agrees, contingent on its approval as a member to publish and maintain that written statement as a public document linkable on the Web.
+> 4) Receives approval to be a Steward from the Sovrin Board of Trustee
 
-### What may be further requirements?
-* The new member has to prove it is not undergoing any criminal proceeding and that is financially solvent.
-* The Organization which applies to be a member has been operational without debt for the past 3 years.
-
-Bloxberg regulates membership requirements in its [Bloxberg Whitepaper](https://bloxberg.org/wp-content/uploads/2020/02/bloxberg_whitepaper_1.1.pdf) as follows:
-
-> * Applications are reviewed atleast once every 4 weeks.
+> ### What may be further requirements?
+> *The applicant has to provide evidence to the consortium in the application or requalification that the applicant is:
+> * Financially solvent.
+> * Not undergoing any criminal proceedings
 
 
 ## Drawbacks 
 
-* Long process may demotivate companies and organizations
+* If the citeria is defined to narrow for a smaller pool of possible members, interested and interesting members may be excluded. Therefore the aimed size of the network and the potenital members and users should be taken into consideration.
 
 ## Prior art
 
-* The Sovrin Steward Policy and Bloxberg Whitepaper has been used to retrieve possible answers within this document. 
+* The [Sovrin Business Policy V2 Policy](https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf) and [Bloxberg Whitepaper](https://bloxberg.org/wp-content/uploads/2020/02/bloxberg_whitepaper_1.1.pdf)  has been used to retrieve possible answers within this document. 
 
 ## Unresolved questions
 
-* New member acceptance process either via Voting or on referral basis?
 * When is a application considered complete for review?
+* Who is in the Board of Trustees and how is it chosen/elected?
+* How can the citeria be changed.
+
