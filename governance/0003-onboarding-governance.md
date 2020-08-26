@@ -64,7 +64,7 @@ Sovrin suggests additional requirements if the member doesn't meet the set requi
 Bloxberg regulates reapplication requirements in its [Bloxberg Whitepaper v1.1](https://bloxberg.org/wp-content/uploads/2020/02/bloxberg_whitepaper_1.1.pdf) as follows:
 > The excluded organization can reapply for a bloxberg consortium membership
 
-Sovrin regulates additional requirements in its [Sovrin Business Policy V2 Policy](https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf) as follows:
+Sovrin regulates additional and special requirements in its [Sovrin Business Policy V2 Policy](https://sovrin.org/wp-content/uploads/Sovrin-Steward-Business-Policies-V2.pdf) as follows:
 
 > ### What may be further requirements?
 > * A Steward MUST attest and provide supporting evidence to the Sovrin Foundation in the application or requalification process that the Steward is:
