@@ -90,7 +90,7 @@ Sovrin regulates membership requirements in its [Sovrin Business Policy V2 Polic
 ## Drawbacks 
 
 * If the criteria are defined too narrow for a small pool of possible members, interested and interesting members may be excluded. 
-Therefore the aimed size of the network and the potential members and users should be taken into consideration.
+Therefore the targeted size of the network and the size of the set of potential members should be taken into consideration.
 
 ## Prior art
 
