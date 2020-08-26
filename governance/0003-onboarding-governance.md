@@ -98,5 +98,5 @@ Therefore the aimed size of the network and the potential members and users shou
 
 ## Unresolved questions
 
-* When is a application considered complete for review?
+* When is an application considered complete for review?
 * Change process for these criteria
