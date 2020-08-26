@@ -22,7 +22,7 @@ Moreover, they can increase trust within the network, especially in the beginnin
 * The jurisdiction, the member has to be compliant with.
 * Requirements for organizations/companies to join.
 * Joining without meeting the requirements.
-* special requirements for suspended and terminated members.
+* Special requirements for suspended and terminated members.
 
 ## Examples & Best Practices
 
