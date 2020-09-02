@@ -95,5 +95,4 @@ Therefore the targeted size of the network and the size of the set of potential 
 
 ## Unresolved questions
 
-* When is an application considered complete for review?
 * Change process for these criteria
