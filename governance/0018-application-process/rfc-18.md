@@ -10,7 +10,7 @@
 
 ## Summary
 
-The RFC provides the guidelines to develop application process to select new members to join a consortial blockchain network.
+The RFC provides an overview of requirements that can be used as a guideline to develop a application process to select new members to join a consortial blockchain network.
 
 ## Motivation
 
@@ -19,7 +19,12 @@ A transparent application process flow provides clear and transparent overview t
 ## Specifications
 
 * Workflow process for the organization when applying to join consortial blockchain network.
-
+* Needs to be combined with #0003RFC
+* Citeria to evaluate applicants
+* Voting for new members
+* Voting algorithm including a "majority rule"
+* Interval for internal voting process
+* Nods(s) that are implemented after successful application
 
 ## Examples & Best Practices
 
@@ -60,5 +65,7 @@ Bloxberg defines new member application workflow in its [Bloxberg Whitepaper v1.
 ## Unresolved questions
 
 * Is voting a good choice to approve members?
+* What alternative voting systems could be used?
 * Are there other citeria that need to be considered?
+* How can this application process be changed?
 
