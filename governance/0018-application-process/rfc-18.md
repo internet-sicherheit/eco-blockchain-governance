@@ -21,7 +21,7 @@ A transparent application process flow provides a clear and transparent overview
 
 * Workflow process for the organization when applying to join consortial blockchain network.
 * Needs to be combined with #0003RFC
-* Citeria to evaluate applicants
+* Criteria to evaluate applicants
 * Voting for new members
 * Voting algorithm including a "majority rule"
 * Interval for internal voting process
