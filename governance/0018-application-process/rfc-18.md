@@ -1,7 +1,7 @@
 
 # RFC 0018: Application process for new members
 - Authors: Tina Marquardt (marquadt@internet-sicherheit.de) and Chinmay Khandekar (khandekar@internet-sicherheit.de) 
-- Status: [DRAFT](/README.md#proposed)
+- Status: [PRUPOSED](/README.md#proposed)
 - Since: 2020-08-12 
 - Status Note: Draft
 - Supersedes:
@@ -10,11 +10,12 @@
 
 ## Summary
 
-The RFC provides an overview of requirements that can be used as a guideline to develop a application process to select new members to join a consortial blockchain network.
-
+The RFC provides the guidelines to develop objective criteria for an application process to select new members to join a consortial blockchain network.
+ 
 ## Motivation
 
-A transparent application process flow provides clear and transparent overview to the applicant and instills confidence that their application has been scrutinized well before a decision is made.
+A transparent application process flow provides a clear and transparent overview to the applicant and members. It increases confidence that their application has been scrutinized well before a decision is made and that only elgibile and trustworthy organizations are able to join.
+
 
 ## Specifications
 
@@ -25,6 +26,8 @@ A transparent application process flow provides clear and transparent overview t
 * Voting algorithm including a "majority rule"
 * Interval for internal voting process
 * Nods(s) that are implemented after successful application
+* Transparency degree of process e.g. publication on website
+* Is there something like an alternating comitee?
 
 ## Examples & Best Practices
 
