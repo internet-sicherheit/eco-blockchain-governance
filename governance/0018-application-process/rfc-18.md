@@ -69,5 +69,5 @@ Bloxberg defines new member application workflow in its [Bloxberg Whitepaper v1.
 
 * Is voting a good choice to approve members?
 * What alternative voting systems could be used?
-* Are there other citeria that need to be considered?
+* Are there other criteria that need to be considered?
 * How can this application process be changed?
