@@ -26,7 +26,7 @@ A transparent application process flow provides a clear and transparent overview
 * Voting algorithm including a "majority rule"
 * Interval for internal voting process
 * Nods(s) that are implemented after successful application
-* Transparency degree of process e.g. publication on website
+* Degree of transparency of the process e.g. publication on a website.
 * Is there something like an alternating comitee?
 
 ## Examples & Best Practices
