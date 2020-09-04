@@ -1,7 +1,7 @@
 
 # RFC 0018: Application process for new members
 - Authors: Tina Marquardt (marquadt@internet-sicherheit.de) and Chinmay Khandekar (khandekar@internet-sicherheit.de) 
-- Status: [PRUPOSED](/README.md#proposed)
+- Status: [PROPOSED](/0001-rfc-process/README.md)
 - Since: 2020-08-12 
 - Status Note: Draft
 - Supersedes:
@@ -71,4 +71,3 @@ Bloxberg defines new member application workflow in its [Bloxberg Whitepaper v1.
 * What alternative voting systems could be used?
 * Are there other citeria that need to be considered?
 * How can this application process be changed?
-
