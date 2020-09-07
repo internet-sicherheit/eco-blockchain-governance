@@ -25,7 +25,7 @@ A transparent application process flow provides a clear and transparent overview
 * Voting for new members
 * Voting algorithm including a "majority rule"
 * Interval for internal voting process
-* Nods(s) that are implemented after successful application
+* Nodes(s) that are implemented after successful application
 * Degree of transparency of the process e.g. publication on a website.
 * Is there something like an alternating comitee?
 
@@ -46,7 +46,7 @@ Sovrin regulates applications process in its [Sovrin Business Policy V2 Policy](
 
 Bloxberg defines new member application workflow in its [Bloxberg Whitepaper v1.1](https://bloxberg.org/wp-content/uploads/2020/02/bloxberg_whitepaper_1.1.pdf) as follows:
 > * Voting for new bloxberg consortium members. Workflow:
->   **Applicant fills out a form on the official (bloxberg.org) website
+>   ** Applicant fills out a form on the official (bloxberg.org) website
 >   ** The Iron Throne adds the applicant to the voting dApp
 >   ** Once every 4 weeks members vote for 4 weeks on new applicants
 >   ** The voting is executed on-chain after an off-chain discussion
@@ -55,6 +55,7 @@ Bloxberg defines new member application workflow in its [Bloxberg Whitepaper v1.
 >   ** If > 50%of the valid votes areyes, the new member is accepted. If not,the new member is rejected and can reapply at a later time.
 >   ** After a positive vote the Iron Throne is instructed to add the new member as a Authority node to the bloxberg network.
 >   ** The new member has to run one Authority node, but can have n non-Authority nodes. The Authority node must be available in the network all the time.
+
 
 ## Drawbacks 
 
