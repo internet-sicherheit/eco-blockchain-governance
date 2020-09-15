@@ -52,7 +52,7 @@ Bloxberg defines new member application workflow in its [Bloxberg Whitepaper v1.
 >   ** The voting is executed on-chain after an off-chain discussion
 >   ** The voting is executed according to the bloxberg decision algorithm
 >   ** The bloxberg consortium needs a quorum of >50% of all voting power, to execute a valid voting, but a minimum of 3 voting organizations.
->   ** If > 50%of the valid votes areyes, the new member is accepted. If not,the new member is rejected and can reapply at a later time.
+>   ** If > 50%of the valid votes are yes, the new member is accepted. If not, the new member is rejected and can reapply at a later time.
 >   ** After a positive vote the Iron Throne is instructed to add the new member as a Authority node to the bloxberg network.
 >   ** The new member has to run one Authority node, but can have n non-Authority nodes. The Authority node must be available in the network all the time.
 
