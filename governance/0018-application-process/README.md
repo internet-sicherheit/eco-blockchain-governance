@@ -14,7 +14,8 @@ The RFC provides the guidelines to develop objective criteria for an application
  
 ## Motivation
 
-A transparent application process flow provides a clear and transparent overview to the applicant and members. It increases confidence that their application has been scrutinized well before a decision is made and that only elgibile and trustworthy organizations are able to join.
+A transparent application process flow provides a clear and transparent overview to the applicant and members. 
+It increases confidence that their application has been scrutinized well before a decision is made and that only elgibile and trustworthy organizations are able to join.
 
 
 ## Specifications
@@ -25,7 +26,7 @@ A transparent application process flow provides a clear and transparent overview
 * Voting for new members
 * Voting algorithm including a "majority rule"
 * Interval for internal voting process
-* Nodes(s) that are implemented after successful application
+* Classes of Membership
 * Degree of transparency of the process e.g. publication on a website.
 * Is there something like an alternating comitee?
 
