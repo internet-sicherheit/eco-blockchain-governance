@@ -10,24 +10,24 @@
 
 ## Summary
 
-The RFC provides the guidelines to develop objective criteria for an application process to select new members to join a consortial blockchain network.
+The RFC provides a guidelines for an possible application process to select new members to join a consortial blockchain network.
  
 ## Motivation
 
 A transparent application process flow provides a clear and transparent overview to the applicant and members. 
 It increases confidence that their application has been scrutinized well before a decision is made and that only elgibile and trustworthy organizations are able to join.
+The process gives equal chances to all eligible applicants and creates more security within the exisiting consortia. 
 
 
 ## Specifications
 
-* Workflow process for the organization when applying to join consortial blockchain network.
-* Needs to be combined with #0003RFC
+* Workflow process for the applying organization when applying to join consortial blockchain network.
+* This RFC needs to be combined with [#0003RFC](https://github.com/internet-sicherheit/eco-blockchain-governance/tree/master/governance/0003-Onboarding)
 * Criteria to evaluate applicants
-* Voting for new members
-* Voting algorithm including a "majority rule"
-* Interval for internal voting process
-* Classes of Membership
-* Degree of transparency of the process e.g. publication on a website.
+* Decision-making on new applicants, for more details refer to [#0020RFC](https://github.com/internet-sicherheit/eco-blockchain-governance/issues/44) for more information on decision-making in governance processes)
+* Interval for internal decision or voting to decide on applicants
+* Different Classes of Membership imply different rights and nodes for members
+* Degree of transparency of the process e.g. publication on a website
 * Is there something like an alternating comitee?
 
 ## Examples & Best Practices
@@ -51,16 +51,16 @@ Bloxberg defines new member application workflow in its [Bloxberg Whitepaper v1.
 >   ** The Iron Throne adds the applicant to the voting dApp
 >   ** Once every 4 weeks members vote for 4 weeks on new applicants
 >   ** The voting is executed on-chain after an off-chain discussion
->   ** The voting is executed according to the bloxberg decision algorithm
+>   ** The voting is executed according to the bloxberg decision algorithm, refer to [#0020 RFC](https://github.com/internet-sicherheit/eco-blockchain-governance/issues/44) for more information on decision-making in governance processes)
 >   ** The bloxberg consortium needs a quorum of >50% of all voting power, to execute a valid voting, but a minimum of 3 voting organizations.
 >   ** If > 50%of the valid votes are yes, the new member is accepted. If not, the new member is rejected and can reapply at a later time.
->   ** After a positive vote the Iron Throne is instructed to add the new member as a Authority node to the bloxberg network.
+>   ** After a positive vote the Iron Throne is instructed to add the new member as a authority node to the bloxberg network.
 >   ** The new member has to run one Authority node, but can have n non-Authority nodes. The Authority node must be available in the network all the time.
 
 
 ## Drawbacks 
 
-* On-chain voting is only pseudonym
+* In case the decision is met by members on chain, anonymity cannot be assured (pseudonimity at best)
 * Long application process may not seem contemporary for new members
 
 ## Prior art
@@ -69,7 +69,6 @@ Bloxberg defines new member application workflow in its [Bloxberg Whitepaper v1.
 
 ## Unresolved questions
 
-* Is voting a good choice to approve members?
-* What alternative voting systems could be used?
-* Are there other criteria that need to be considered?
+* Best Practice for decision-making in more decentralized governance syststems 
+* Are there other criteria that need to be considered for new applicants?
 * How can this application process be changed?
