@@ -16,11 +16,17 @@ To create a safe environment throughout the blockchain network, software update 
 
 ## Specification
 
+- Update protocol
+- Versioning
+- Minor updates without interrupting the network 
+- Major updates should be planned
+- Guaranteed availability of the system
+
+## Examples & Best Practices
+
 Based on the version system there could be different protocols to update a node. If the software of the blockchain nodes follows the [semantic versioning](https://semver.org/) protocol, MINOR and PATCH updates should be updatable without breaking the network functionality. For major patches a coordinated update has to be planned and can lead to a short downtime of the network because of a change in the communication protocol.
 
 Beside the current node version the uptime of the system has to be guaranteed. An uncoordinated process can lead to a nonfunctional consensus.
-
-## Examples & Best Practices
 
 We can look at the [Sovrin Steward Technical and Orgnaizatoinal Policies](https://sovrin.org/wp-content/uploads/Steward-Technical-and-Organizational-Policies-V2.pdf) as an example implementation:
 > A Steward Node:
@@ -47,3 +53,5 @@ Without checking the changes of the update the risk of new injected malicious co
  [Steward Technical and Orgnaizatoinal Policies](https://sovrin.org/wp-content/uploads/Steward-Technical-and-Organizational-Policies-V2.pdf)
 
 ## Unresolved questions
+
+A software update process with standardised guidelines for blockchain projects. A de facto standard for all blockchain technologies to ensure more security and simplification. 
