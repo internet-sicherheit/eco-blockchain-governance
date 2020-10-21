@@ -54,4 +54,3 @@ Network Governance
   - Person K
   - Person L
 
-## Unresolved questions
