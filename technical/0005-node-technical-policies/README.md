@@ -19,13 +19,14 @@ This is the only way to ensure that there is as little downtime as possible and 
 
 A realization of the hardware should consider the following points (the list is not exhaustive):
 
-- The node must run on server hardware.
+- The node can run on dedicated server hardware or inside a server cluster
+- When running inside a sever cluster, the resources have to be dedicated to the node
 - Must have adequate computing power.
 - Must have sufficient memory.
 - Must have sufficient storage with the option to expand it.  
 - Must have a high-speed connection to the Internet.
-- Each NIC must have a IP address.
-- A power supply unit is required.
+- Must have an IP address allocated. This IP address must be reachable by other nodes.
+- Enough electricity must be supplied to the hardware to be able to function at highest capacity. 
 
 ## Examples & Best Practices
 
