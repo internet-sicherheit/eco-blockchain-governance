@@ -19,8 +19,8 @@ This is the only way to ensure that there is as little downtime as possible and 
 
 A realization of the hardware should consider the following points (the list is not exhaustive):
 
-- The node can run on dedicated server hardware or inside a server cluster
-- When running inside a sever cluster, the resources have to be dedicated to the node
+- The node can run on dedicated server hardware or inside a hypervisor cluster
+- When running inside a hypervisor cluster, the resources have to be dedicated to the node
 - Must have adequate computing power.
 - Must have sufficient memory.
 - Must have sufficient storage with the option to expand it.  
