@@ -12,7 +12,7 @@ Describes the different types and classes of nodes.
 
 ## Motivation
 
-To operate a Blockchain network it is important to know the different node types and classes and to use them correctly. There are several ways to operate a node. To get an overview of all possible ways.
+To operate a Blockchain network it is important to know the different node types and classes and to use them correctly. There are several ways to operate a node. To get an overview of all possible ways. Dividing nodes and members in different types and classes allows to use design patterns like [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) or efficient ressource handling.
 
 ## Specification
 
@@ -63,7 +63,7 @@ We can also take a look at the [Hyperledger Besu documentation](https://besu.hyp
 
 ## Drawbacks
 
-There is too much fragmentation in the types and classes of nodes. There is no standard implementation but all projects are oriented towards the technology. This makes it very cluttered.
+There is too much fragmentation in the types and classes of nodes. There is no standard implementation because most blockchains are desiged for a special use case (running dapps for public usage or offering a registry for self sovring identities in public or private networks) but all projects are oriented towards the technology. This makes it very cluttered.
 
 ## Prior art
 
