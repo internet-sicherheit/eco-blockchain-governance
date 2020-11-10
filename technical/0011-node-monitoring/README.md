@@ -56,4 +56,5 @@ Further information can be found at [Hyperledger Besu Monitor Metrics](https://b
 ## Unresolved questions
 * Defining a process to ingest and visualize the data reported by the core nodes 
 * Defining a process for reporting hardware resource available and usage
-* How to report the information needed for monitoring without granting more permissions that are required to perform the tasks. 
+* How to report the information needed for monitoring without granting more permissions that are required to perform the tasks.
+* Establishing an alerting strategy when multiple node owners are involved
