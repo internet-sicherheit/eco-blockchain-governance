@@ -19,13 +19,14 @@ This is the only way to ensure that there is as little downtime as possible and 
 
 A realization of the hardware should consider the following points (the list is not exhaustive):
 
-- The node must run on server hardware.
+- The node can run on dedicated server hardware or inside a hypervisor cluster
+- When running inside a hypervisor cluster, the resources have to be dedicated to the node
 - Must have adequate computing power.
 - Must have sufficient memory.
 - Must have sufficient storage with the option to expand it.  
 - Must have a high-speed connection to the Internet.
-- Each NIC must have a IP address.
-- A power supply unit is required.
+- Must have an IP address allocated. This IP address must be reachable by other nodes.
+- Enough electricity must be supplied to the hardware to be able to function at highest capacity. 
 
 ## Examples & Best Practices
 
@@ -39,33 +40,51 @@ We can look at the [Sovrin Steward Technical and Orgnaizatoinal Policies](https:
 > * MUST have at least one dedicated NIC for Sovrin Validator Node consensus traffic, and a different NIC to process external requests. Each NIC must have astable, static, world-routable IP address.
 > * SHOULD have a power supply consistent with high availability systems. 
 
-There is also a possible implementation by EBSI [Minimum Requirements for Hosting an EBSI v1.0 Node](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITALEBSI/Minimum+Requirements+for+Hosting+an+EBSI+v1.0+Node) 
+There is also a possible implementation by EBSI [Minimum Requirements for Hosting an EBSI v1.0 Node](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITALEBSI/Minimum+Requirements+for+Hosting+an+EBSI+v1.0+Node)
 
 European Blockchain Services Infrastructure (EBSI)
 
 > Requirements
-
+>
 > Environment Requirements
-
+>
 > An EBSI v1.0 node requires a minimum of three computer hosts all with access to the Internet and with individual fixed public IP addresses. These can be either physical server computers or virtual machines running in a self-hosted data-centre infrastructure, a private cloud, or a public cloud.
-
+>
 > Hardware
-
+>
 > Each computer host – physical or virtual – must have these minimum specifications:
 > * 4 Core CPU, 4 vCPU or equivalent,
 > * 16 GB of RAM for the BESU and Fabric hosts; 32 GB of RAM for Master/Applications host
 > * 80 GB SSD,
 > * 256 GB SSD.
-
+>
 > Network
-
+>
 > All hosts must be in the same subnet, each with a fixed public IP address, and must be connected to the Internet in order to get updated and to communicate with other EBSI nodes. 
-
+>
 > The minimum specifications are:
 > * 1 GB Ethernet (local network),
 > * latency 50ms (internet),
 > * 100 Mbits/second for bandwidth (internet)
 > * 3 fixed public IPs (one for each host).
+
+The bloxberg blockchain is another example 
+
+bloxberg: Blockchain Infrastructure for Scientific Research
+
+> Pilot Phase [bloxberg Whitepaper 1.0](https://www.mpg.de/13416733/bloxberg_whitepaper.pdf)
+>
+> Minimum specifications - physical or virtual - for a validator node are:
+> * 1 Core CPU
+> * 1GB of RAM 
+> * 4 GB Storage
+>
+> Current Phase [bloxberg ValidatorSetup](https://github.com/bloxberg-org/bloxbergValidatorSetup)
+>
+> Minimum specifications - physical or virtual - for a validator node are:
+> * 2 Core CPU
+> * 2GB of RAM
+> * 100 GB Storage SSD
 
 It is important to note that the requirements specified in the example implementation need to be adapted according to the network's context. 
 
