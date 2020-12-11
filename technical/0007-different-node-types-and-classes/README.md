@@ -26,6 +26,7 @@ Types:
 - Full Node
 - Light Node
 - Service Node
+- forensic/audit/witness Node
 
 Classes:
 - Validator Node
