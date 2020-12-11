@@ -1,5 +1,5 @@
 # 0011: Hardware monitoring
- - Authors: [Iosif Peterfi](peterfi@mpdl.mpg.de), [David Maas](david_maas@hotmail.de) 
+ - Authors: [Iosif Peterfi](peterfi@mpdl.mpg.de), [David Maas](david_maas@hotmail.de), [Chinmay Khandekar](khandekar@internet-sicherheit.de) 
 - Status: [PROPOSED](/README.md#proposed)
 - Since: 2020-10-21 
 - Status Note: Initial Proposal  
@@ -10,7 +10,11 @@
 Describes hardware monitoring and monitoring the status of node uptime and performance status.
 
 ## Motivation
-Due to the decentralized nature of the blockchain infrastructure, it is challenging to find an appropriate method for monitoring the status of all running nodes. Validating if a node is running or not is insufficient to determine the overall health of a specific node. Once adequate measures have been taken to properly monitor a node's performance, then a overall network health can be determined.
+Due to the decentralized nature of the blockchain infrastructure, it is challenging to find an appropriate method for monitoring the status of all running nodes. 
+
+Validating if a node is running or not is insufficient to determine the overall health of a specific node. 
+
+Once adequate measures have been taken to properly monitor a node's performance, then a overall network health can be determined.
 
 ## Specification
 The following parameters are prerequisites for effective hardware monitoring:
