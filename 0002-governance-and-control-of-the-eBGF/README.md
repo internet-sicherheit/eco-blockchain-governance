@@ -1,5 +1,5 @@
 # 0002: Governance and control of the eBGF
-- Authors: [David Maas](david_maas@hotmail.de)
+- Authors: [David Maas](david_maas@hotmail.de), [Kevin Wittek](wittek@internet-sicherheit.de)
 - Status: [PROPOSED](/README.md#proposed)
 - Since: 2020-09-09
 - Status Note: initial version  
@@ -20,12 +20,7 @@ In addition, the respective contact person for the topics is directly known and 
 
 ## Process
 
-We try to conduct reviews of the set PRs at fixed times during the day.
-This way nobody is torn away from requested reviews during the actual work. 
-
-Currently, there are the following review times:
-  - The first thing in the morning
-  - Right after lunch
+Reviews of PRs should be carried out every 2 to 3 weeks. However, depending on the capacity of work, there may be delays.  
 
 The set PRs must be reviewed by at least 2 maintainers. 
 One specific maintainer of the working group is mandatory, but a delegate must be appointed if he is unable to attend. 
