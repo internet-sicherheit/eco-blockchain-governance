@@ -1,5 +1,5 @@
 # 0009: Operational security guidelines
-- Authors: [David Maas](david_maas@hotmail.de) 
+- Authors: [David Maas](david_maas@hotmail.de), [Kevin Wittek](wittek@internet-sicherheit.de), [Chinmay Khandekar](khandekar@internet-sicherheit.de) 
 - Status: PROPOSED
 - Since: 2020-10-21 
 - Status Note: Initial Proposal  
