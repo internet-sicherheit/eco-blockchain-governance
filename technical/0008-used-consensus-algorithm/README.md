@@ -13,13 +13,17 @@ Describes the used consensus method/algorithm for the network.
 Consensus procedures are a crucial element of any blockchain network as they ensure that certain integrity and security guarantees of these decentralized systems are maintained.
 
 ## Specification
-The following consensus algorithms are available:
+It is recommended to use the following concepts for consensus algorithms:
 
 * Proof of Work
 * Proof of stake
 * Proof of authority (PoA)
-* Proof of Importance 
-* Practical Byzantine Fault Tolerance (PBFT) 
+* Proof of Importance
+* Proof of Elapsed Time (PoET)
+
+For an implementation it is recommended to use the Practical Byzantine Fault Tolerance (PBFT) consensus algorithm. This is used by Hyperledger Fabric, among others. PBFT is therefore best suited for permission-based blockchains
+
+However, this must be evaluated in detail and adapted to the respective situation.  
 
 
 ## Examples & Best Practices
@@ -50,7 +54,7 @@ Foundation website.
 >* IBFT 2.0 (Proof of Authority)
 >* Quorum IBFT 1.0 (Proof of Authority).
 
->Comparing Proof of Authority consensus protocols
+>[Comparing Proof of Authority consensus protocols](https://besu.hyperledger.org/en/stable/Concepts/Consensus-Protocols/Comparing-PoA/)
 Besu implements the Clique and IBFT 2.0 Proof of Authority consensus protocols. Proof of Authority consensus protocols work when participants know each other and there is a level of trust between them. For example, in a permissioned consortium network.
 
 >Proof of Authority consensus protocols have faster block times and a much greater transaction throughput than the Ethash Proof of Work consensus protocol used on the Ethereum MainNet.
