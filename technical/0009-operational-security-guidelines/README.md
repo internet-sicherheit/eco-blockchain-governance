@@ -10,7 +10,8 @@
 Provides the operational security guidelines
 
 ## Motivation
-Operational security guidelines are required to operate a secure Blockchain infrastructure. Only in this way can security and trust be guaranteed.
+Operational security guidelines are required to operate a secure Blockchain infrastructure. 
+Only in this way, a certain level of security and trust can be guaranteed.
 
 ## Specification
 The following specifications should be implemented:
@@ -29,7 +30,7 @@ The following specifications should be implemented:
 * Update intervals of nodes and internal systems
 * Regulation of access control over the network
 * Authorization of the nodes in the network
-* Ensuring the ongoing integrity of the systems
+ * Ensuring the ongoing integrity of the system and software
 
 
 ## Examples & Best Practices
@@ -108,7 +109,7 @@ approval of the results before the Node is authorized to participate in consensu
 and provide the test results report to the TGB within three (3) business days.
 
 ## Drawbacks
-Too high safety requirements could lead to less implementation.
+Too high safety requirements could lead to less network members.
 
 ## Prior art
 The [Sovrin Governance Framework](https://sovrin.org/library/sovrin-governance-framework/) defines security guidelines to a certain degree as part of the [Steward Technical and Orgnaizatoinal Policies](https://sovrin.org/wp-content/uploads/Steward-Technical-and-Organizational-Policies-V2.pdf).
