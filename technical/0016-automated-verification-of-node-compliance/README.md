@@ -10,10 +10,12 @@
 Describes the automatic verification of nodes with a specific compliance.
 
 ## Motivation
-To operate a safe environment at all times, it is important that the nodes meet certain requirements. Since a manual process would be too time-consuming, an automation of Verified Nodes is very important. Thereby any compliance can be defined.
+To operate a safe environment at all times, it is important that the nodes meet certain requirements. 
+Since a manual process would be too time-consuming, automation of Verified Nodes is very important. 
+Thereby any compliance should be defined.
 
 ## Specification
-To enable verification, the following points would have to be present.
+To enable verification, the following points would have to be present:
 * Compliance guidelines
 * Observer
 * Verification routines
