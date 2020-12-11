@@ -7,10 +7,10 @@
 - Tags: 
 
 ## Summary
-Describes the consensus method used Algorithm.
+Describes the used consensus method/algorithm for the network.
 
 ## Motivation
-Consensus procedures are a crucial element of any block chain network as they ensure that the integrity and security of these decentralised systems are maintained.
+Consensus procedures are a crucial element of any blockchain network as they ensure that certain integrity and security guarantees of these decentralized systems are maintained.
 
 ## Specification
 The following consensus algorithms are available:
@@ -66,5 +66,4 @@ Hyperledger Besu implements various consensus algorithms [Overview-Consensus](ht
 
 ## Unresolved questions
 * How can/should the algorithm be optimized?
-* When and how will the algorithm be run?
 * How will results of the algorithm be used to adjust network configuration?
