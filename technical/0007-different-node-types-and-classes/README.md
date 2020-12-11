@@ -12,7 +12,11 @@ Describes the different types and classes of nodes.
 
 ## Motivation
 
-To operate a Blockchain network it is important to know the different node types and classes and to use them correctly. There are several ways to operate a node. To get an overview of all possible ways. Dividing nodes and members in different types and classes allows to use design patterns like [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) or efficient ressource handling.
+To operate a Blockchain network it is important to know the different node types and classes and to use them correctly.
+
+There are several ways to operate a node. To get an overview of all possible ways. 
+
+Dividing nodes and members in different types and classes allows to use design patterns like [principle of least privilege](https://en.wikipedia.org/wiki/Principle_of_least_privilege) or efficient ressource handling.
 
 ## Specification
 
