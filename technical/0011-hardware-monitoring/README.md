@@ -1,5 +1,5 @@
 # 0011: Hardware monitoring
- - Authors: [Iosif Peterfi](peterfi@mpdl.mpg.de), [David Maas](david_maas@hotmail.de), [Chinmay Khandekar](khandekar@internet-sicherheit.de) 
+ - Authors: [Iosif Peterfi](peterfi@mpdl.mpg.de), [David Maas](david_maas@hotmail.de), [Chinmay Khandekar](khandekar@internet-sicherheit.de), [Kevin Wittek](wittek@internet-sicherheit.de) 
 - Status: [PROPOSED](/README.md#proposed)
 - Since: 2020-10-21 
 - Status Note: Initial Proposal  
