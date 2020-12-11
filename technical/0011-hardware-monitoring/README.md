@@ -1,16 +1,16 @@
 # 0011: Hardware monitoring
-- Authors: [Iosif Peterfi](peterfi@mpdl.mpg.e), [David Maas](david_maas@hotmail.de) 
-- Status: PROPOSED
+ - Authors: [Iosif Peterfi](peterfi@mpdl.mpg.de), [David Maas](david_maas@hotmail.de) 
+- Status: [PROPOSED](/README.md#proposed)
 - Since: 2020-10-21 
 - Status Note: Initial Proposal  
 - Start Date: 2020-10-21 
-- Tags: 
+- Tags: monitoring, operational, performance, status, nodes
 
 ## Summary
 Describes hardware monitoring and monitoring the status of node uptime and performance status.
 
 ## Motivation
-Due to the decentralized nature of the blockchain infrastrucutre, is challenging to find a proper way of monitoring the status of all running nodes. Validating wether a node is running or not is insufficient to determine the overall health of a specific node. Once adequate measures have been taken to properly monitor a node's performance, then a overall network health can be determined.
+Due to the decentralized nature of the blockchain infrastructure, it is challenging to find an appropriate method for monitoring the status of all running nodes. Validating if a node is running or not is insufficient to determine the overall health of a specific node. Once adequate measures have been taken to properly monitor a node's performance, then a overall network health can be determined.
 
 ## Specification
 The following parameters are prerequisites for effective hardware monitoring:
@@ -43,7 +43,7 @@ The following factors have to be determined for each core node
 * Bandwidth available/used
 * Transaction propagation
 * Block processing time
-
+* Link Speed
 
 ## Examples & Best Practices
 
@@ -59,7 +59,7 @@ The PoW mining nodes can also be monitored individually by each node owner.
 
 [European Blockchain Services Infrastructure](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITAL/EBSI)
 
-A mixture of various monitoring tools are used apparently by EBSI to [monitor the infrastructure layer](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITALEBSI/Monitoring+of+the+Infrastructure) . One tool being mentioned is [phpservermon](ttps://github.com/phpservermon/phpservermon)
+A mixture of various monitoring tools are used apparently by EBSI to [monitor the infrastructure layer](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITALEBSI/Monitoring+of+the+Infrastructure) . One tool being mentioned is [phpservermon](https://github.com/phpservermon/phpservermon)
 For the blockchain layer, this service category is mentioned in EBSI V1, however it [may contain further monitoring tools](https://ec.europa.eu/cefdigital/wiki/display/CEFDIGITALEBSI/Blockchain+Monitoring). As of V1, the existing monitoring tools are block explorers.
 
 
